@@ -1,6 +1,6 @@
 from os import chdir, listdir, remove
 
-DEVELOPMENT = True
+DEVELOPMENT = False
 
 # Value that can be changed in development. Python file should be placed in downloads folder.
 PATH = "downloads"
