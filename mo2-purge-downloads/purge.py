@@ -28,8 +28,6 @@ with open('mo2-purge-downloads.log', 'w') as log_file:
 
                         uninstalled_data = line.strip().split('=')
 
-                        print(uninstalled_data)
-
                         if uninstalled_data[1] == str('true'):
 
                             is_uninstalled = True
