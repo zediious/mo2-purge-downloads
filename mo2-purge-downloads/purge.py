@@ -39,7 +39,7 @@ with open('mo2-purge-downloads.log', 'w') as log_file:
                                 mod_archive = path.replace('.meta', '').replace("downloads\\", '')
                                 remove(mod_archive)
 
-                                log_file.write(f"- {mod_archive}")
+                                log_file.write(f"- {mod_archive}\n")
 
                             except FileNotFoundError:
 
@@ -51,4 +51,9 @@ with open('mo2-purge-downloads.log', 'w') as log_file:
 
                 remove(path.replace("downloads\\", ''))
 
-                            
+with open('mo2-purge-downloads.log', 'r') as log_file:
+
+    print(" ")
+    for line in log_file:
+
+        print(line.strip())
