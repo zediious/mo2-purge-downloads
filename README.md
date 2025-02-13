@@ -14,6 +14,8 @@ This exists as a Mod Organizer 2 plugin.
   <image src=https://i.imgur.com/59gPDaz.png></image>
 </div>
 
+4) Select whether you wish to purge the archives, or only list them with the buttons. Check the box if you want to output a log file.
+
 5) Any archive and respective `.meta` file associated with a *deleted* mod will be removed, and a dialog box will appear showing a list of all removed archives.
 
 The standalone script is to be placed directly in your `downloads` directory and ran by command line. It will print a log of removed archives.
